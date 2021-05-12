@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="px-5">
+      <!-- Navbar -->
+      <nav
+        class="h-32 flex items-center justify-between max-w-screen-xl mx-auto"
+      >
+        <img src="./images/logo.svg" alt="Huddle" class="w-36" />
+        <button
+          class="font-openSans py-1.5 px-6 rounded-full border-2 border-pink bg-transparent text-pink btn transition-shadow duration-300"
+        >
+          Try it free
+        </button>
+      </nav>
+
+      <!-- Hero -->
+      <div class="py-20">
+        <h1
+          class="font-poppins text-4xl text-center text-cyan-dark lg:text-5xl max-w-2xl xl:max-w-full mx-auto"
+          style="line-height: 1.5"
+        >
+          Build The Community Your Fans Will Love
+        </h1>
+        <p
+          class="text-center text-cyan-dark font-openSans mt-10 text-lg max-w-lg mx-auto"
+        >
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button
+          class="py-2.5 px-10 bg-pink text-blue-pale shadow-lg block font-openSans font-bold mx-auto mt-10 rounded-full lg:py-3.5 lg:px-8 hover:bg-pink-light transition duration-300"
+        >
+          Get Started For Free
+        </button>
+      </div>
+      <img
+        src="./images/screen-mockups.svg"
+        alt="Screen Mokup"
+        class="my-20 max-w-xl lg:max-w-2xl mx-auto"
+      />
+    </header>
+
+    <!-- Statistics -->
+    <div class="px-8 mx-auto w-full flex lg:py-10">
+      <div
+        class="mx-auto w-full space-y-20 lg:space-y-0 flex flex-col lg:flex-row lg:justify-between max-w-2xl"
+      >
+        <div class="space-y-3">
+          <img
+            src="./images/icon-communities.svg"
+            alt="Community"
+            class="w-10"
+          />
+          <h1 class="text-7xl font-openSans font-bold">1.4k+</h1>
+          <p class="text-cyan-dark font-openSans">Communities Formed</p>
+        </div>
+
+        <div class="space-y-3">
+          <img src="images/icon-messages.svg" alt="Community" class="w-10" />
+          <h1 class="text-7xl font-openSans font-bold">2.7m+</h1>
+          <p class="text-cyan-dark font-openSans">Messages Sent</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full mt-14">
+      <img
+        src="./images/bg-section-top-mobile-1.svg"
+        alt=""
+        class="xs:hidden"
+      />
+      <img
+        src="./images/bg-section-top-desktop-1.svg"
+        alt=""
+        class="hidden xs:block desktop:hidden"
+      />
+      <div
+        class="bg-blue-pale py-20 px-5 space-y-4 flex flex-col lg:flex-row lg:space-y-0 lg:space-x-20 lg:items-center"
+      >
+        <img
+          src="./images/illustration-grow-together.svg"
+          alt="Grow Together"
+          class="max-w-sm mx-auto block mb-12 lg:order-last"
+        />
+        <div class="space-y-3">
+          <h2 class="font-poppins text-2xl text-center">Grow Together</h2>
+          <p class="text-center font-openSans max-w-lg lg:max-w-md mx-auto">
+            Grow Together Generate meaningful discussions with your audience and
+            build a strong, loyal community. Think of the insightful
+            conversations you miss out on with a feedback form.
+          </p>
+        </div>
+      </div>
+      <img
+        src="./images/bg-section-bottom-mobile-1.svg"
+        alt=""
+        class="xs:hidden"
+      />
+      <img
+        src="./images/bg-section-bottom-desktop-1.svg"
+        alt=""
+        class="hidden xs:block desktop:hidden"
+      />
+    </div>
+
+    <div
+      class="bg-white py-20 px-5 space-y-4 flex flex-col lg:flex-row lg:space-x-20 lg:items-center"
+    >
+      <img
+        src="images/illustration-flowing-conversation.svg"
+        alt="Flowing Conversations"
+        class="w-full max-w-sm block mb-12 mx-auto"
+      />
+      <div class="space-y-3">
+        <h2 class="font-poppins text-2xl text-center">Flowing Conversations</h2>
+        <p class="text-center font-openSans max-w-lg lg:max-w-md mx-auto">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+    </div>
+
+    <div class="w-full">
+      <img
+        src="./images/bg-section-top-mobile-2.svg"
+        alt=""
+        class="xs:hidden"
+      />
+      <img
+        src="./images/bg-section-top-desktop-2.svg"
+        alt=""
+        class="hidden xs:block desktop:hidden"
+      />
+
+      <div
+        class="bg-blue-pale py-20 px-5 space-y-4 flex flex-col lg:flex-row lg:space-y-0 lg:space-x-20 lg:items-center"
+      >
+        <img
+          src="./images/illustration-grow-together.svg"
+          alt="Your Users"
+          class="max-w-sm mx-auto block mb-12 lg:order-last"
+        />
+        <div class="space-y-3">
+          <h2 class="font-poppins text-2xl text-center">Your Users</h2>
+          <p class="text-center font-openSans max-w-lg lg:max-w-md mx-auto">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+      </div>
+      <img
+        src="./images/bg-section-bottom-mobile-2.svg"
+        alt=""
+        class="xs:hidden"
+      />
+      <img
+        src="./images/bg-section-bottom-desktop-2.svg"
+        alt=""
+        class="hidden xs:block desktop:hidden"
+      />
+    </div>
+
+    <div class="bg-white py-20 px-5 space-y-8 desktop:py-28 desktop:mt-10">
+      <h2 class="text-2xl font-poppins text-center">
+        Ready To Build Your Community?
+      </h2>
+
+      <button
+        class="py-2.5 px-10 bg-pink text-blue-pale shadow-lg block font-openSans font-bold mx-auto rounded-full lg:py-3.5 lg:px-8 hover:bg-pink-light transition duration-300"
+      >
+        Get Started For Free
+      </button>
+    </div>
+
+    <footer class="mt-10">
+      <img src="./images/bg-footer-top-mobile.svg" alt="" class="xs:hidden" />
+      <img
+        src="./images/bg-footer-top-desktop.svg"
+        alt=""
+        class="hidden xs:block relative top-0.5 desktop:hidden"
+      />
+
+      <div
+        class="bg-cyan-dark px-5 text-blue-pale py-20 space-y-20 flex flex-col lg:flex-row lg:space-y-0 lg:space-x-10 lg:items-center lg:justify-evenly"
+      >
+        <div class="max-w-md mx-auto lg:order-last">
+          <h4 class="font-poppins text-xl font-semibold tracking-wide">
+            NEWSLETTER
+          </h4>
+          <p class="font-openSans mt-5">
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <div
+            class="relative mt-8 flex flex-col lg:flex-row lg:justify-start lg:items-center"
+          >
+            <span
+              id="errMsg"
+              class="absolute top-full left-0 text-red-light"
+            ></span>
+            <input
+              type="text"
+              id="email"
+              class="bg-white py-2 px-3 text-cyan-dark font-openSans h-12 rounded w-full focus:outline-none border-2 border-dashed border-white focus:border-pink"
+            />
+            <button
+              class="lg:ml-3 mt-2 lg:mt-0 ml-auto rounded h-12 py-2 px-4 bg-pink font-openSans font-semibold hover:bg-pink-light transition duration-300"
+              onclick="validateEmail()"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        <div class="max-w-md mx-auto space-y-8 font-openSans">
+          <div>
+            <img src="./images/logo-2.svg" alt="Huddle" />
+            <p class="mt-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+          </div>
+
+          <div class="space-y-2">
+            <div class="flex space-x-5">
+              <img src="./images/icon-phone.svg" alt="Phone" class="h-5 w-6" />
+              <span>Phone: +1-543-123-4567</span>
+            </div>
+
+            <div class="flex space-x-5">
+              <img src="images/icon-email.svg" alt="Phone" class="h-5 w-6" />
+              <span>example@company.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js" defer></script>
+  </body>
+</html>

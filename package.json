@@ -1,0 +1,17 @@
+{
+  "name": "huddle-landing-page-with-curved-sections-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "postcss ./public/tailwind.css -o ./styles.css",
+    "prod": "NODE_ENV=production postcss ./public/tailwind.css -o ./styles.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2",
+    "win-node-env": "^0.4.0"
+  }
+}
