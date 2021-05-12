@@ -215,17 +215,20 @@
             newsletter. We’ll never send you spam or pass on your email address
           </p>
           <div
-            class="relative mt-8 flex flex-col lg:flex-row lg:justify-start lg:items-center"
+            class="mt-8 flex flex-col lg:flex-row lg:justify-start lg:items-center"
           >
-            <span
-              id="errMsg"
-              class="absolute top-full left-0 text-red-light"
-            ></span>
-            <input
-              type="text"
-              id="email"
-              class="bg-white py-2 px-3 text-cyan-dark font-openSans h-12 rounded w-full focus:outline-none border-2 border-dashed border-white focus:border-pink"
-            />
+            <div class="relative w-full">
+              <input
+                type="text"
+                id="email"
+                class="bg-white py-2 px-3 text-cyan-dark font-openSans h-12 rounded w-full focus:outline-none border-2 border-dashed border-white focus:border-pink"
+              />
+
+              <div
+                id="errMsg"
+                class="absolute left-0 top-full text-red-light"
+              ></div>
+            </div>
             <button
               class="lg:ml-3 mt-2 lg:mt-0 ml-auto rounded h-12 py-2 px-4 bg-pink font-openSans font-semibold hover:bg-pink-light transition duration-300"
               onclick="validateEmail()"
